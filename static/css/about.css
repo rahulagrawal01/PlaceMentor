@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.con-div
+{
+    width: 240px;
+    margin: 10px;
+    display: inline-grid;
+    border: 1px solid coral;
+    background-color: cornsilk;
+}
+.prof-t
+{
+    border-radius: 39px;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 74px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.para-ab-para
+{
+    background-color: bisque;
+    text-align: center;
+}
+
+.ab-para
+{
+    justify-self: center;
+    font-weight: bold;
+}
+
+.h-name
+{
+    background-color: antiquewhite;
+}
+
+.para
+{
+    font-size: 32px;
+}
+
+.img-p-div
+{
+    justify-self: center;
+}

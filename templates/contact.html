@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    About Us
+{% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% endblock %}
+
+{% block content %}
+
+    <div>
+        <div class="team" style="background-color: #ffe082; text-align: center;">
+            <h3 style="background-color: #caae53;">REACH OUT US HERE...</h3>
+            <div style="display: flex; place-content: center;">
+                <div class="con-div" style="margin: 10px;">
+                    <div class="img-p-div">
+                        <img src="{% static 'img/RKA.jpeg' %}" alt="pic-R" class="d-none d-lg-block logo_c prof-t">
+                    </div>
+                    <div class="h-name">
+                        <center><h5>Rahul Kumar Agarwal</h5></center>
+                    </div>
+                    <div class="para-ab-para">
+                        <div class="ab-para">
+                            <p class="para"><a href="https://www.linkedin.com/in/rahul-kumar-agrawal/"><i class="fa-brands fa-linkedin"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="con-div" style="margin: 10px;">
+                    <div class="img-p-div">
+                        <img src="{% static 'img/SV.jpg' %}" alt="pic-R" class="d-none d-lg-block logo_c prof-t">
+                    </div>
+                    <div class="h-name">
+                        <center><h5>Sudhanshu Vijay</h5></center>
+                    </div>
+                    <div class="para-ab-para">
+                        <div class="ab-para">
+                            <p class="para"><a href="https://www.linkedin.com/in/sudhanshu-vijay/"><i class="fa-brands fa-linkedin"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="con-div" style="margin: 10px;">
+                    <div class="img-p-div">
+                        <img src="{% static 'img/SJ.jpg' %}" alt="pic-R" class="d-none d-lg-block logo_c prof-t">
+                    </div>
+                    <div class="h-name">
+                        <center><h5>Shruti Jain</h5></center>
+                    </div>
+                    <div class="para-ab-para">
+                        <div class="ab-para">
+                            <p class="para"><a href="https://www.linkedin.com/in/shruti-jain-/"><i class="fa-brands fa-linkedin"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
